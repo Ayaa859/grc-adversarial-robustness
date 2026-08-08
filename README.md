@@ -52,15 +52,3 @@ Running the notebook multiple times should reproduce every table exactly.
 
 Every one of the 16 GDPR controls in the repository is supported by at least 4 pairs; 4 pairs are constructed with two expected controls. Pairs were manually authored and reviewed for label preservation and realistic organizational phrasing — no automated generation-and-filtering pipeline was used.
 
-itation to be added once the paper is published/assigned a DOI]
-```
-
-## License
-
-Code: [MIT / your choice]
-Dataset: [CC-BY 4.0 / your choice, matching the paper's license]
-
-## Contact
-
-Ayah Al-Jabali — aya20248059@std.psut.edu.jo
-Cybersecurity Department, Princess Sumaya University for Technology, Amman, Jordan
