@@ -52,12 +52,7 @@ Running the notebook multiple times should reproduce every table exactly.
 
 Every one of the 16 GDPR controls in the repository is supported by at least 4 pairs; 4 pairs are constructed with two expected controls. Pairs were manually authored and reviewed for label preservation and realistic organizational phrasing — no automated generation-and-filtering pipeline was used.
 
-## Citation
-
-If you use this code or dataset, please cite:
-
-```
-[Full citation to be added once the paper is published/assigned a DOI]
+itation to be added once the paper is published/assigned a DOI]
 ```
 
 ## License
