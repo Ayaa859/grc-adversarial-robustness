@@ -8,7 +8,7 @@ This repository evaluates how an AI-driven GDPR compliance engine — a domain c
 
 | File | Description |
 |---|---|
-| `GRC_v3_MDPI_revision_clean.ipynb` | Full evaluation pipeline: engine construction, adversarial evaluation, defense ablation, statistical tests, and every table reported in the paper (Tables 3–9). |
+| `grc-adversarial-robustness.ipynb` | Full evaluation pipeline: engine construction, adversarial evaluation, defense ablation, statistical tests, and every table reported in the paper (Tables 3–9). |
 | `dataset/` | The N = 104 clean–adversarial risk-description pairs (208 evaluation cases), balanced across four attack types and covering all 16 evaluated GDPR controls. |
 | `README.md` | This file. |
 
@@ -19,7 +19,7 @@ This repository evaluates how an AI-driven GDPR compliance engine — a domain c
 pip install scikit-learn sentence-transformers scipy numpy pandas
 ```
 
-**Run:** Open `GRC_v3_MDPI_revision_clean.ipynb` in Jupyter or Colab and run all cells top to bottom. The notebook is self-contained — no external data downloads or API keys required.
+**Run:** Open `grc-adversarial-robustness` in Jupyter or Colab and run all cells top to bottom. The notebook is self-contained — no external data downloads or API keys required.
 
 **What the notebook reproduces:**
 - Table 3 — Retrieval-depth sweep (K ∈ {1, 3, 5}), clean inputs only
